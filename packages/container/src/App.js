@@ -2,5 +2,10 @@ import React from "react";
 import { MarketingApp } from "./components/MarketingApp";
 
 export const App = () => {
-  return <MarketingApp />
+  return (
+    <div>
+      <p>Hello from container </p>
+      <MarketingApp />
+    </div>
+  );
 };
